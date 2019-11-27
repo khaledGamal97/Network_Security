@@ -1,0 +1,47 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'RC4_Encryption.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iUkM0X0VuY3J5cHRpb24uam5scCI+DQogIDxpbmZvcm1hdGlvbj4NCiAgICA8dGl0bGU+UkM0X0VuY3J5cHRpb248L3RpdGxlPg0KICAgIDx2ZW5kb3I+UkVEQS1QQzwvdmVuZG9yPg0KICAgIDxkZXNjcmlwdGlvbj5udWxsPC9kZXNjcmlwdGlvbj4NCiAgICA8b2ZmbGluZS1hbGxvd2VkLz4NCiAgPC9pbmZvcm1hdGlvbj4NCiAgPHJlc291cmNlcz4NCiAgICA8amZ4OmphdmFmeC1ydW50aW1lIHZlcnNpb249IjguMCsiIGhyZWY9Imh0dHA6Ly9qYXZhZGwuc3VuLmNvbS93ZWJhcHBzL2Rvd25sb2FkL0dldEZpbGUvamF2YWZ4LWxhdGVzdC93aW5kb3dzLWk1ODYvamF2YWZ4Mi5qbmxwIi8+DQogIDwvcmVzb3VyY2VzPg0KICA8cmVzb3VyY2VzPg0KICAgIDxqMnNlIHZlcnNpb249IjEuNisiIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4NCiAgICA8amFyIGhyZWY9IlJDNF9FbmNyeXB0aW9uLmphciIgc2l6ZT0iMTE4ODAiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgPC9yZXNvdXJjZXM+DQogIDxhcHBsaWNhdGlvbi1kZXNjIG1haW4tY2xhc3M9InJjNF9lbmNyeXB0aW9uLlJDNF9FbmNyeXB0aW9uIiAgbmFtZT0iUkM0X0VuY3J5cHRpb24iID4NCiAgPC9hcHBsaWNhdGlvbi1kZXNjPg0KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCjwvam5scD4NCg=='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbed() {
+        dtjava.embed(
+            {
+                toolkit : 'swing',
+                url : 'RC4_Encryption_browser.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : 800,
+                height : 600,
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iUkM0X0VuY3J5cHRpb25fYnJvd3Nlci5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5SQzRfRW5jcnlwdGlvbjwvdGl0bGU+DQogICAgPHZlbmRvcj5SRURBLVBDPC92ZW5kb3I+DQogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPg0KICAgIDxvZmZsaW5lLWFsbG93ZWQvPg0KICA8L2luZm9ybWF0aW9uPg0KICA8cmVzb3VyY2VzPg0KICAgIDxqZng6amF2YWZ4LXJ1bnRpbWUgdmVyc2lvbj0iOC4wKyIgaHJlZj0iaHR0cDovL2phdmFkbC5zdW4uY29tL3dlYmFwcHMvZG93bmxvYWQvR2V0RmlsZS9qYXZhZngtbGF0ZXN0L3dpbmRvd3MtaTU4Ni9qYXZhZngyLmpubHAiLz4NCiAgPC9yZXNvdXJjZXM+DQogIDxyZXNvdXJjZXM+DQogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIvPg0KICAgIDxqYXIgaHJlZj0iUkM0X0VuY3J5cHRpb24uamFyIiBzaXplPSIxMTg4MCIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICA8L3Jlc291cmNlcz4NCiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0icmM0X2VuY3J5cHRpb24uUkM0X0VuY3J5cHRpb24iICBuYW1lPSJSQzRfRW5jcnlwdGlvbiIgPg0KICA8L2FwcGxldC1kZXNjPg0KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCjwvam5scD4NCg=='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {
+                onGetSplash : function() {}
+            }
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbed);
+</script>
+
+</head><body>
+<h2>Test page for <b>RC4_Encryption</b></h2>
+  <b>Webstart:</b> <a href='RC4_Encryption.jnlp' onclick="return launchApplication('RC4_Encryption.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
